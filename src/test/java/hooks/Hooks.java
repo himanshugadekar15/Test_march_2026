@@ -5,8 +5,8 @@ import utils.DriverFactory;
 
 public class Hooks {
 
-//    @After
-//    public void tearDown() {
-//        DriverFactory.getDriver().quit();
-//    }
+    @After
+    public void tearDown() {
+        DriverFactory.getDriver().quit();
+    }
 }
