@@ -6,3 +6,4 @@ Feature: Login functionality
     And user enters password "secret_sauce"
     And clicks login button
     Then user should be navigated to home page
+
